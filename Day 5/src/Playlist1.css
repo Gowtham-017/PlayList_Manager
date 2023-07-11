@@ -1,0 +1,45 @@
+.body{
+  background-color: white;
+  height: 100vh;
+  /* margin-top: -20px; */
+}
+
+
+
+  .song1{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px  white;
+    border-style:inset;
+    position: relative;
+    grid-gap:25px;
+    height: 57px;
+    color: white;
+    padding: 0 16px;
+    background-color:rgba(0, 0, 0, 0.975);
+  }
+  .song2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px solid black;
+    position: relative;
+    grid-gap:16px;
+    color: black;
+    padding: 0 16px;
+    background-color:white;
+  }
+
+  .song1:hover{
+    background-color:rgba(70, 131, 180, 0.78);
+  }
+ 
+  .listname{
+    /* margin-bottom: 40px; */
+    height: 40%;
+    background-color:aquamarine;
+  }
+  .playmus{
+    background-color: rgba(127, 255, 212, 0.777);
+    opacity: 100%;
+    color:black;
+  }

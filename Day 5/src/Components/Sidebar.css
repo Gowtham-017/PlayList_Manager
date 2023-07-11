@@ -1,0 +1,219 @@
+.homepage {
+  display: flex;
+ height: 100vh;
+ 
+  background-color: rgb(13, 167, 82);
+  
+}
+.appbody{
+  display: flex;
+}
+.leftsection {
+
+  width:30%;
+  /* display:flex; */
+  /* position:absolute; */
+/* height: 92vh; */
+/* position: absolute; */
+/* align-items: center; */
+background-color:#555;
+}
+
+
+.rightsection {
+  /* position: absolute; */
+  /* display: flex;  */
+  /* position: fixed; */
+  width:70%;
+  justify-content: center;
+  align-items: center;
+  /* height: 90vh; */
+  background-color: white;
+}
+
+.sidebarsection{
+  padding:75px 0 0 0;
+}
+
+.login-container {
+  background-color: rgba(25, 25, 23, 0.115);
+  padding: 30px;
+  height:550px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+nav {
+    background-color: rgba(6, 5, 5, 0.96);
+  }
+  .menu {
+    display: flex;
+    position:absolute;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .menu li a {
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #555;
+  }
+  .profile{
+    width: 5%;
+    padding: 16px 10px 1px 14px;
+    /* display:inline-flex;   */
+  }
+  /* .navicon{
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  } */
+  /* .navcon{
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 1200px;
+    
+  } */
+.searchbar{
+  width: 30%;
+  border-radius: 40px;
+  padding: 5px 810px 5px 1px;
+  align-items: center;
+  border-radius: 40px;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+
+
+
+
+  /* .heading{
+    width: 100%;
+    
+
+  } */
+.head1{
+  width: 50%;
+  padding: 5px 160px 5px 5px;
+}
+.head2{
+  background-color: #007bff;;
+  display: flex;
+  width: 90%;
+  padding: 9px 5px 4px 5px;
+}
+
+.head3{
+  width: 100%;
+  background-color: #007bff;;
+  display: flex;
+}
+.create{
+  background-color: #555;
+  /* width: 100%; */
+  /* margin-left: 30px; */
+  /* margin:0 0 0 80px; */
+}
+
+
+.leftnav{
+  padding: 5px 50px 5px 5px;
+}
+
+.rightnav{
+  padding: 9px 0px 4px 100px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+}
+
+.header{
+  margin-top: -400px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.listhead{
+  
+  background-color: #ccc;
+}
+
+.listicon{
+  color:black;
+}
+.addhead{
+  width:15%;
+  background-color: #ccc;
+}
+
+.yourplay{
+  background-color: #ccc;
+}
+
+.profilelist{
+  float: left;
+  
+}
+.profileele{
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  justify-content: center;
+}
+.ullist{
+  display: grid;
+  /* margin-left: -10px; */
+  margin: 0 0 0 0;
+  border-radius: 10px;
+  /* justify-content: center; */
+}
+.playbutton{
+  background-color: rgb(67, 65, 65);
+  height: 80px;
+  color:white;
+  width:480px;
+  margin: 0 0 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+/* .homee{
+  height: 100%;
+  
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  margin-top: -50px;
+  margin-left: 0px;
+  border: 1px solid rgb(116, 24, 24);
+} */

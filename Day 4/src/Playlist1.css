@@ -1,0 +1,90 @@
+.body{
+  background-color: rgba(0, 0, 0, 0.986);
+}
+.playlist-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    background-color: #105350b7;
+    color: #fff;
+    padding: 1rem;
+    font-size: 75px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    height: 400px;
+  }
+  
+  .song-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .song-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    width: 150px;
+  }
+  
+  .song-icon img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .song-icon p {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .songimg{
+    background-image: url("song.png");
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+  }
+  .playmusic{
+    color:rgb(16, 96, 108);
+    margin-left: -1100px;
+    margin-top: 40px;
+    
+  }
+
+  .song1{
+    display: grid;
+    grid-template-columns: [index] 70px [first] 5fr [var1] 4fr [var2] 3fr [last]minmax(120px,1fr);
+    border: 1px  white;
+    border-style:inset;
+    position: relative;
+    grid-gap:25px;
+    height: 57px;
+    color: white;
+    padding: 0 16px;
+    background-color:rgba(0, 0, 0, 0.862);
+  }
+  .song2{
+    display: grid;
+    grid-template-columns: [index] 70px [first] 5fr [var1] 4fr [var2] 3fr [last]minmax(120px,1fr);
+    border: 1px solid black;
+    position: relative;
+    grid-gap:16px;
+    color: black;
+    padding: 0 16px;
+    background-color:white;
+  }
+
+  .song1:hover{
+    background-color: rgba(236, 227, 227, 0.726);
+  }
+    /* element.style{
+    transform: translateY(0px);
+    }
+       */
+
+ .songrow{
+ }      

@@ -1,0 +1,45 @@
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+
+
+.background1{
+    background-image: url("playlistimg1.jpg");
+    height:100px;
+    width:100px;
+    background-size: cover;
+}
+.background2{
+    background-image: url("playlistimg2.jpg");
+    height:100px;
+    width:100px;
+    background-size: cover;
+}
+.background3{
+    background-image: url("playlistimg3.jpg");
+    height:100px;
+    width:100px;
+    background-size: cover;
+}
+.background4{
+    background-image: url("playlistimg4.png");
+    height:100px;
+    width:100px;
+    background-size: cover;
+}
+.background5{
+    background-image: url("playlistimg5.jpg");
+    height:100px;
+    width:100px;
+    background-size: cover;
+}
+.background6{
+    background-image: url("playlistimg6.jpg");
+    height:100px;
+    width:100px;
+    background-size: cover;
+}

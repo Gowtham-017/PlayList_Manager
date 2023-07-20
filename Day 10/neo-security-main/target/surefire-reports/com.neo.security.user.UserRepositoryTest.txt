@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.neo.security.user.UserRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.865 s <<< FAILURE! - in com.neo.security.user.UserRepositoryTest
+testCreateUser  Time elapsed: 0.361 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [user.UK_ob8kqyqqgmefl0aco34akdtpe]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.neo.security.user.UserRepositoryTest.testCreateUser(UserRepositoryTest.java:35)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.neo.security.user.UserRepositoryTest.testCreateUser(UserRepositoryTest.java:35)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'abc@gmail.com' for key 'user.UK_ob8kqyqqgmefl0aco34akdtpe'
+	at com.neo.security.user.UserRepositoryTest.testCreateUser(UserRepositoryTest.java:35)
+

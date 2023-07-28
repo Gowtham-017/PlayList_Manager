@@ -1,0 +1,40 @@
+/* 
+
+  .containerpostplay {
+    width: 450px;
+    padding: 20px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 550px;
+    margin-top: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .inputpostplay {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  */
+ 
+  .buttonpostplay {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    width: 10%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttonpostplay:hover {
+    background-color: #0056b3;
+  }
+  
